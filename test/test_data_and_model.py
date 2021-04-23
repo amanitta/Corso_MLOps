@@ -37,3 +37,20 @@ def test_model_metrics(adult_test_dataset):
     assert metrics['>50K']['precision'] > 0.7  # fill here
     assert metrics['>50K']['recall'] > 0.1  # fill here
 
+# trying to write some tests myself
+def test_race_label(adult_test_dataset):
+    x, y, data_path = adult_test_dataset
+    n_whites = len(x.loc[x['race'] == "White"])
+    n_blacks = len(x.loc[x['race'] == "Black"])
+    ratio = n_whites / n_blacks
+
+    assert ratio <= 2
+
+def test_hard_workers(adult_test_dataset):
+    x, y, data_path = adult_test_dataset
+    n_hw = len(x.loc[x['hours_per_week'] > 50])
+
+    assert n_hw < 1000
+
+
+
