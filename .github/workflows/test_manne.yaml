@@ -25,4 +25,4 @@ jobs:
 
         - name: test_manne
           run: |
-            ./test/actions_test.py
+            python ./test/actions_test.py
