@@ -1,0 +1,15 @@
+artifact_uri: file:///home/manne/GitHub/Corso_MLOps/mlruns/0/b70397ef17f646958fcff2d3c32a2769/artifacts
+end_time: 1619779598139
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b70397ef17f646958fcff2d3c32a2769
+run_uuid: b70397ef17f646958fcff2d3c32a2769
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1619779596899
+status: 3
+tags: []
+user_id: manne
