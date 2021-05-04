@@ -1,0 +1,10 @@
+clearbox-wrapper
+scikit-learn
+numpy
+pytest
+pandas
+mlflow
+fastapi
+uvicorn
+dvc
+skl2onnx
